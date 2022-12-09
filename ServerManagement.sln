@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ServerDatabase", "ServerDatabase\ServerDatabase.sqlproj", "{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SipDN", "SipDN\SipDN.csproj", "{A17434CA-1416-4F73-AA43-7C1CBD7FD234}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Configurations", "Configurations\Configurations.csproj", "{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97E9D18-6163-43EC-8CC4-D8EA4FB99D91}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A17434CA-1416-4F73-AA43-7C1CBD7FD234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17434CA-1416-4F73-AA43-7C1CBD7FD234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17434CA-1416-4F73-AA43-7C1CBD7FD234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17434CA-1416-4F73-AA43-7C1CBD7FD234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F7F9C2B-BEED-451F-A5A5-83A251C0DB85}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04782677-EF1A-4251-ACD2-6944247DE650}
+	EndGlobalSection
+EndGlobal

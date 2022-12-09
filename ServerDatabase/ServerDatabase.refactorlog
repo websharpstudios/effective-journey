@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="21730119-3114-44f8-9147-05753c000504" ChangeDateTime="12/09/2022 04:33:40">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="14b015bb-0e04-4728-b0b5-32f988947c59" ChangeDateTime="12/09/2022 04:35:22">
+    <Property Name="ElementName" Value="[dbo].[PhysicalComponents].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PhysicalComponents]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d552ef78-e21f-4011-9f65-2a17a3748445" ChangeDateTime="12/09/2022 04:48:27">
+    <Property Name="ElementName" Value="[dbo].[Endpoints].[URL]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EndpointURI" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5476b762-01dc-4a37-860f-a78a0f8a13f8" ChangeDateTime="12/09/2022 04:50:35">
+    <Property Name="ElementName" Value="[dbo].[EndpointParameters].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[EndpointParameters]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EndpointId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="df7e4a63-ea5c-4c42-a100-c3bfe1f4cc0e" ChangeDateTime="12/09/2022 04:52:23">
+    <Property Name="ElementName" Value="[dbo].[Endpoints].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EndpointId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="735d1d7e-eb5c-40f2-8cdd-1f230aae305d" ChangeDateTime="12/09/2022 04:59:32">
+    <Property Name="ElementName" Value="[dbo].[Endpoints].[Documentation]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DocumentationURL" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7ce86cde-8f21-4aec-9112-2b6587ea95b4" ChangeDateTime="12/09/2022 05:00:31">
+    <Property Name="ElementName" Value="[dbo].[Endpoints].[Name]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Endpoints]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="EnpointName" />
+  </Operation>
+</Operations>
